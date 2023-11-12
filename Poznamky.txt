@@ -1,0 +1,8 @@
+Možnost komprimace přes cmd
+
+Windows 10 build 17063 or later is bundled with tar.exe which is capable of working with ZIP files from the command line.
+
+tar.exe -xf archive.zip
+Or to create a ZIP archive:
+
+tar.exe -a -cf Test.zip Test
